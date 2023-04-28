@@ -86,17 +86,11 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
 }
 
 a {
-  color: inherit;
+  color: black;
   text-decoration: none;
 }
 
@@ -104,4 +98,7 @@ a {
   html {
     color-scheme: dark;
   }
+}
+.fit {
+  min-height:calc(100vh - 10rem);
 }
